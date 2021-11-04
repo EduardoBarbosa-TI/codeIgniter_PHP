@@ -1,4 +1,0 @@
-<h1>Olá mundo!!!</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tempora debitis nobis cupiditate officia, aut obcaecati illo vitae, corporis dolor laudantium expedita. Quod hic incidunt non eveniet in? Inventore, saepe.
-Autem repudiandae officiis, molestiae vel exercitationem harum itaque voluptates, ut, consequuntur eligendi illo? Commodi, fugit. Aliquam, adipisci dignissimos similique, deleniti voluptatum blanditiis id dolorum explicabo rem, labore eos doloribus fugit.
-Consequuntur modi pariatur, voluptatibus at recusandae laboriosam. Necessitatibus magnam voluptates unde quidem expedita suscipit facere ut nostrum iure, aperiam blanditiis, tempora eos fugiat provident. Est, recusandae aliquid. Quibusdam, ratione corporis!</p>
