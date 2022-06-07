@@ -9,7 +9,7 @@ services:
         ports: 
             - "80:80"
         volumes:
-            - ./www:/var/www/html/
+            - ./www/codeigniter4:/var/www/html/codeigniter4/
         networks:
             - default
     db:

@@ -1,7 +1,5 @@
 FROM php:8.0-apache
 
-LABEL maintainer="Antonio Sanna <atsanna@tiscali.it>"
-
 RUN apt-get update
 RUN apt-get upgrade -y
 
@@ -35,25 +33,11 @@ RUN set -x \
 
 RUN a2enmod rewrite
 
-#ADD startScript.sh /startScript.sh
-# The printf command below creates the script /startScript.sh with the following 3 lines. 
-# #!/bin/bash
-# mv /codeigniter4 /var/www/html
-# /usr/sbin/apache2ctl -D FOREGROUND
-RUN printf "#!/bin/bash\nmv /codeigniter4 /var/www/html\n/usr/sbin/apache2ctl -D FOREGROUND" > /startScript.sh
-RUN chmod +x /startScript.sh
 
-RUN cd /var/www/html
 
-RUN composer create-project codeigniter4/appstarter codeigniter4 v4.1.9
-RUN chmod -R 0777 /var/www/html/codeigniter4/writable
+RUN mkdir /var/www/html/codeigniter4/ 
+RUN chmod -R 0777 /var/www/html/codeigniter4/
 
-RUN mv codeigniter4 /
 
-RUN apt-get clean \
-    && rm -r /var/lib/apt/lists/*
-    
-EXPOSE 80
-VOLUME ["/var/www/html", "/var/log/apache2", "/etc/apache2"]
 
-CMD ["bash", "/startScript.sh"]
+
