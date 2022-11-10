@@ -1,0 +1,232 @@
+CRITICAL - 2022-11-09 17:06:09 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH/Controllers/Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:07:53 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH/Controllers/Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:09:52 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(8): view('site/home')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->home()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:18:43 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/home')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:27:28 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/home')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:28:49 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/home')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:29:39 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/home')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:31:02 --> Invalid file: site/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/home.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/home', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/home')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:07:32 --> syntax error, unexpected token "/"
+in APPPATH/Views/templates/header.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH/Controllers/Site.php(16): view('templates/header')
+ 4 APPPATH/Controllers/Site.php(8): App\Controllers\Site->view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:19:08 --> Invalid file: site/products.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/products.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/products', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/products')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('products')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:30:33 --> Invalid file: site/products.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/products.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/products', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/products')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('products')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:32:57 --> Invalid file: site/products.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/products.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/products', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/products')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('products')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:33:52 --> Invalid file: site/products.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/products.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/products', [], true)
+ 3 APPPATH/Controllers/Site.php(17): view('site/products')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('products')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 18:35:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'172.19.0.4' (using password: YES) in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('db', '', '1q2w3e4r5t', 'pw_example', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'172.19.0.4' (using password: YES) in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-09 18:35:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'172.19.0.4' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 18:35:57 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pw_example' in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('db', 'root', '1q2w3e4r5t', 'pw_example', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pw_example' in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-09 18:35:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pw_example'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Product.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:49:09 --> Invalid file: site/contacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/contacts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/contacts', [], true)
+ 3 APPPATH/Controllers/Site.php(16): view('site/contacts')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('contacts')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 21:24:48 --> Invalid file: site/site.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/site.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/site', [], true)
+ 3 APPPATH/Controllers/Site.php(16): view('site/site')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('site', 'home')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 21:27:38 --> Invalid file: site/contacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/contacts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('site/contacts', [], true)
+ 3 APPPATH/Controllers/Site.php(16): view('site/contacts')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Site->view('contacts')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
