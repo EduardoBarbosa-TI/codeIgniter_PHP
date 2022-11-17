@@ -1,0 +1,27 @@
+CRITICAL - 2022-11-16 17:37:11 --> Invalid file: contact/listContacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact/listContacts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('contact/listContacts', [], true)
+ 3 APPPATH/Controllers/Contact.php(15): view('contact/listContacts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Contact->listContacts()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 20:06:34 --> Invalid file: contact/listContacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact/listContacts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('contact/listContacts', [], true)
+ 3 APPPATH/Controllers/Contact.php(16): view('contact/listContacts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Contact->listContacts()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 20:12:40 --> Invalid file: contact/listContacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact/listContacts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('contact/listContacts', [], true)
+ 3 APPPATH/Controllers/Contact.php(16): view('contact/listContacts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Contact->listContacts()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

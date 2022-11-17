@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Admin;
 
 use App\Models\ProductModel;
+
+use App\Controllers\BaseController;
 
 class Product extends BaseController{
 
@@ -14,9 +16,10 @@ class Product extends BaseController{
       ];
 
       
-      echo view('templates/header');
-      echo view('products/listProducts', $data);
-      echo view('templates/footer');
+      echo view('admin/templates/header');
+      echo view('admin/templates/offcanva');
+      echo view('admin/products/listProducts',$data);
+      echo view('admin/templates/footer');
     }
     
 }

@@ -34,7 +34,7 @@
                             <a class="nav-link" href="<?=base_url('about')?>">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=base_url('contacts')?>">Contato</a>
+                            <a class="nav-link" href="<?=base_url('listContacts')?>">Contato</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?=base_url('listProducts')?>">Produtos</a>

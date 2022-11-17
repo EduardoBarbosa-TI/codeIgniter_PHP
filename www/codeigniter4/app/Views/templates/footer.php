@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <a class="btn btn-danger" href="/admin">Sistema Adiministrador</a>
+        <a class="btn btn-danger" href="<?=base_url('/admin')?>">Sistema Adiministrador</a>
     </footer>
     </body>
 
