@@ -25,5 +25,6 @@
                 <a class="btn btn-danger" href="?controller=main&action=logout">Sair</a>
             </div>
         </div>
-
     </header>
+    <section class="container p-5 ">
+        <div class="row justify-content-center">

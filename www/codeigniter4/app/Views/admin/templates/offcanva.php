@@ -11,8 +11,8 @@
                 </button>
                 <div class="collapse" id="collapseExample01">
                     <ul class=" mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('registerClients')?>">Cadastrar CLientes</a></li>
-                        <li><a class="dropdown-item" href="<?=base_url('listClients')?>">Listar Clientes</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/registerClients')?>">Cadastrar CLientes</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/listClients')?>">Listar Clientes</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,8 +33,8 @@
                 </button>
                 <div class="collapse" id="collapseExample04">
                     <ul class="mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('registerContacts')?>">Cadastrar Contatos</a></li>
-                        <li><a class="dropdown-item" href="<?=base_url('listContacts')?>">Listar Contatos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/registerContacts')?>">Cadastrar Contatos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/listContacts')?>">Listar Contatos</a></li>
                     </ul>
                 </div>
             </div>

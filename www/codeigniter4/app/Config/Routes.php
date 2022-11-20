@@ -47,6 +47,7 @@ $routes->get('/admin/login', 'Admin\Admin::login');
 
 $routes->add('/admin/validateLogin', 'Admin\User::validateLogin');
 
+$routes->add('/admin/registerProducts', 'Admin\Product::registerProducts');
 $routes->get('/admin/listProducts', 'Admin\Product::listProducts');
 
 
