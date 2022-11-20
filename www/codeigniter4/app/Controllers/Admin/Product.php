@@ -21,7 +21,6 @@ class Product extends BaseController{
           'arrayProducts' => $this->productModel->findAll()
       ];
 
-      
       echo view('admin/templates/header');
       echo view('admin/templates/offcanva');
       echo view('admin/products/listProducts',$data);
@@ -34,11 +33,21 @@ class Product extends BaseController{
       echo view('admin/products/registerProducts');
       echo view('admin/templates/footer');
 
-      
-
-   
       $this->productModel->save($this->request->getPost());
+    }
 
+    public function updateProducts($idProduct){
+      
+      $data = [
+          'arrayProducts' => $this->productModel->findAll($idProduct);
+      ];
+
+      echo view('admin/templates/header');
+      echo view('admin/templates/offcanva');
+      echo view('admin/products/updateProducts',$data);
+      echo view('admin/templates/footer');
+
+      $this->productModel->save($this->request->getPost());
     }
     
 }

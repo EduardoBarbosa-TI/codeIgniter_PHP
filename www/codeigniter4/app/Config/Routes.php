@@ -50,6 +50,9 @@ $routes->add('/admin/validateLogin', 'Admin\User::validateLogin');
 $routes->add('/admin/registerProducts', 'Admin\Product::registerProducts');
 $routes->get('/admin/listProducts', 'Admin\Product::listProducts');
 
+$routes->add('/admin/updateProducts/', 'Admin\Product::updateProducts');
+
+
 
 /*
  * --------------------------------------------------------------------

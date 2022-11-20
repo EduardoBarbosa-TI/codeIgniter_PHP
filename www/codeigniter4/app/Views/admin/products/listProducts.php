@@ -27,6 +27,10 @@
                 <td>
                     <?=$products['price']?>
                 </td>
+                <td>
+                    <a class="btn btn-sm btn-primary me-2" href='<?=base_url('admin/updateProducts/'.$products['idProduct'])?>'><i class="bi bi-pencil"></i></a>
+                    <a class="btn btn-sm btn-danger me-2" href='<?=base_url('admin/updateProducts/'.$products['idProduct'])?>'><i class="bi bi-trash"></i></a>
+                </td>
             </tr>
             <?php
                 }
