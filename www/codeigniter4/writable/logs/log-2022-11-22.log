@@ -1,0 +1,336 @@
+CRITICAL - 2022-11-22 17:21:14 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(60): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(46): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:21:20 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(60): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(46): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:21:39 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(56): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(46): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:22:03 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(57): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(46): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:22:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(57): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(44): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:23:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(57): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(44): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:23:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(57): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(44): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:23:55 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/html/codeigniter4/app/Controllers/Admin/Product.php on line 54
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Admin/Product.php(54): view('admin/products/updateProducts', '1')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:25:13 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/html/codeigniter4/app/Controllers/Admin/Product.php on line 52
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Admin/Product.php(52): view('admin/products/updateProducts', '1')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:25:25 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(55): CodeIgniter\Model->update([])
+ 5 APPPATH/Controllers/Admin/Product.php(44): App\Controllers\Admin\Product->updateProducts([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:26:59 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(48): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:27:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(49): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:27:38 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(49): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:28:51 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(52): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:29:27 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(52): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:29:49 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(53): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:30:18 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(53): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:31:12 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:31:54 --> Undefined variable $arrayProducts
+in APPPATH/Views/admin/products/updateProducts.php on line 5.
+ 1 APPPATH/Views/admin/products/updateProducts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayProducts', 'APPPATH/Views/admin/products/updateProducts.php', 5)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:32:38 --> Undefined variable $product
+in APPPATH/Views/admin/products/updateProducts.php on line 7.
+ 1 APPPATH/Views/admin/products/updateProducts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH/Views/admin/products/updateProducts.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:33:58 --> Undefined variable $data
+in APPPATH/Views/admin/products/updateProducts.php on line 5.
+ 1 APPPATH/Views/admin/products/updateProducts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/admin/products/updateProducts.php', 5)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:34:32 --> Undefined variable $data
+in APPPATH/Views/admin/products/updateProducts.php on line 7.
+ 1 APPPATH/Views/admin/products/updateProducts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/admin/products/updateProducts.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:37:39 --> Undefined variable $data
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 APPPATH/Views/admin/products/updateProducts.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/admin/products/updateProducts.php', 9)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:11:53 --> Undefined variable $data
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 APPPATH/Views/admin/products/updateProducts.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/admin/products/updateProducts.php', 9)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:11:57 --> Undefined variable $data
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 APPPATH/Views/admin/products/updateProducts.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/admin/products/updateProducts.php', 9)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/products/updateProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(49): view('admin/products/updateProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:12:36 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(55): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:13:00 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH/Controllers/Admin/Product.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin/Product.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Product')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Product', true)
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:13:09 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(55): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:13:39 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(53): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:14:03 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH/Controllers/Admin/Product.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin/Product.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Product')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Product', true)
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:18:12 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1624.
+ 1 SYSTEMPATH/BaseModel.php(709): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+ 2 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert('1', false)
+ 3 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert('1', false)
+ 4 APPPATH/Controllers/Admin/Product.php(59): CodeIgniter\BaseModel->save('1', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 19:10:50 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 7.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(46): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('3')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 19:17:03 --> syntax error, unexpected token ";"
+in APPPATH/Views/admin/products/updateProducts.php on line 6.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 3 APPPATH/Controllers/Admin/Product.php(46): view('admin/products/updateProducts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->consultProducts('3')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

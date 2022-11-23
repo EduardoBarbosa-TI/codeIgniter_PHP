@@ -1,0 +1,114 @@
+CRITICAL - 2022-11-20 10:35:41 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(47): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('2')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:35:57 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(47): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('2')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:37:07 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(47): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('2')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:37:13 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(47): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:39:43 --> Too few arguments to function App\Controllers\Admin\Product::updateProducts(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Product.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:40:13 --> Cannot access offset of type string on string
+in APPPATH/Views/admin/products/updateProducts.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateProducts', [], true)
+ 4 APPPATH/Controllers/Admin/Product.php(47): view('admin/products/updateProducts', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 10:47:10 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(50): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 11:28:58 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(50): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 11:29:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(50): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('9')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 11:29:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([], null)
+ 4 APPPATH/Controllers/Admin/Product.php(50): CodeIgniter\Model->update([])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts('9')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 11:38:32 --> Too few arguments to function App\Controllers\Admin\Product::updateProducts(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Product.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 11:39:07 --> Too few arguments to function App\Controllers\Admin\Product::updateProducts(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Product.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 12:11:18 --> Too few arguments to function App\Controllers\Admin\Product::updateProducts(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Product.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Product->updateProducts()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -35,19 +35,34 @@ class Product extends BaseController{
 
       $this->productModel->save($this->request->getPost());
     }
-
-    public function updateProducts($idProduct){
+    public function consultProducts($idProduct){
       
       $data = [
-          'arrayProducts' => $this->productModel->findAll($idProduct);
+          'arrayProducts' => $this->productModel->find([$idProduct])
       ];
 
       echo view('admin/templates/header');
       echo view('admin/templates/offcanva');
       echo view('admin/products/updateProducts',$data);
       echo view('admin/templates/footer');
+     
+      $this->updateProducts($idProduct);
+      
 
-      $this->productModel->save($this->request->getPost());
+    }
+
+    
+
+    public function updateProducts($idProduct){
+      
+      $data = [
+        'name' => $this->request->getPost('name'),
+        'price' => $this->request->getPost('price'),
+        'description' => $this->request->getPost('description'),
+        'idCategory' => $this->request->getPost('category')
+      ];
+
+      $this->productModel->update($idProduct,$data);
     }
     
 }
