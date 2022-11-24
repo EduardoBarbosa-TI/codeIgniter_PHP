@@ -20,10 +20,10 @@ class User extends BaseController{
                 $session -> set('user', $user);
                 return redirect()->to(base_url('/admin'));
             }else{
-                //senha inválida
+                echo('Senha inválida!!');
             }       
         }else{
-            //usuário inexistente
+            echo('Usuário ou senha inválida!!');
         }
     }
 

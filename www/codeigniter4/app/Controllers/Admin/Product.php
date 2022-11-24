@@ -35,34 +35,41 @@ class Product extends BaseController{
 
       $this->productModel->save($this->request->getPost());
     }
+    
     public function consultProducts($idProduct){
-      
-      $data = [
+      if($this->productModel->find([$idProduct])){
+        $data = [
           'arrayProducts' => $this->productModel->find([$idProduct])
-      ];
+        ];
 
-      echo view('admin/templates/header');
-      echo view('admin/templates/offcanva');
-      echo view('admin/products/updateProducts',$data);
-      echo view('admin/templates/footer');
-     
-      $this->updateProducts($idProduct);
-      
+        echo view('admin/templates/header');
+        echo view('admin/templates/offcanva');
+        echo view('admin/products/updateProducts',$data);
+        echo view('admin/templates/footer');
 
+        $this->updateProducts($idProduct);
+
+      }else{
+        echo ("Id de usuário não encontrado");
+      }
     }
 
-    
+    public function updateProducts($idProduct){ 
 
-    public function updateProducts($idProduct){
-      
       $data = [
-        'name' => $this->request->getPost('name'),
-        'price' => $this->request->getPost('price'),
-        'description' => $this->request->getPost('description'),
-        'idCategory' => $this->request->getPost('category')
+          'name' => $this->request->getPost('name'),
+          'price' => $this->request->getPost('price'),
+          'description' => $this->request->getPost('description'),
+          'idCategory' => $this->request->getPost('category')
       ];
-
       $this->productModel->update($idProduct,$data);
+
+      return redirect()->to(base_url('admin/listProducts'));  
+    }
+
+    public function deleteProducts($idProduct){
+      $this->productModel->delete($idProduct);
+      // return redirect()->to(base_url('admin/listProducts'));  
     }
     
 }

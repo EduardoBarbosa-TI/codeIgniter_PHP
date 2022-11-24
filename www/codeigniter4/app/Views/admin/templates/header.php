@@ -22,7 +22,7 @@
                 </button>
             </div>
             <div class="col-12 col-sm-6 d-flex justify-content-end p-4">
-                <a class="btn btn-danger" href="?controller=main&action=logout">Sair</a>
+                <a class="btn btn-danger" href="<?=base_url('admin/logout')?>">Sair</a>
             </div>
         </div>
     </header>

@@ -5,13 +5,12 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class ContactModel extends Model{
-    protected $primaryKey = 'idContact';
-    protected $table = 'contacts';
+    protected $primaryKey = 'idClient';
+    protected $table = 'clients';
     protected $allowedFields = [
         'name',
+        'phone',
         'email',
-        'message',
-        'status',
-        'description'
+        'address'
     ];
 }

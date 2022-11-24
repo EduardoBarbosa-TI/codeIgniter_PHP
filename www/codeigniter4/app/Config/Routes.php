@@ -44,12 +44,31 @@ $routes->get('/listProducts', 'Product::listProducts');
 
 $routes->get('/admin', 'Admin\Admin::index');
 $routes->get('/admin/login', 'Admin\Admin::login');
+$routes->get('/admin/logout', 'Admin\Admin::logout');
 
 $routes->add('/admin/validateLogin', 'Admin\User::validateLogin');
 
-$routes->get('/admin/listProducts', 'Admin\Product::listProducts');
+//clients
+$routes->add('/admin/registerClients', 'Admin\Product::registerClients');
+$routes->add('/admin/listClients', 'Admin\Product::listClients');
+$routes->add('/admin/consultClients/(:num)', 'Admin\Product::consultClients/$1');
+$routes->add('/admin/updateClients/(:num)', 'Admin\Product::updateClients/$1');
+$routes->add('/admin/deleteClients/(:num)', 'Admin\Product::deleteClients/$1');
 
-$routes->add('/admin/updateProducts/(:num)', 'Admin\Product::consultProducts/$1');
+
+//products
+$routes->add('/admin/registerProducts', 'Admin\Product::registerProducts');
+$routes->add('/admin/listProducts', 'Admin\Product::listProducts');
+$routes->add('/admin/consultProducts/(:num)', 'Admin\Product::consultProducts/$1');
+$routes->add('/admin/updateProducts/(:num)', 'Admin\Product::updateProducts/$1');
+$routes->add('/admin/deleteProducts/(:num)', 'Admin\Product::deleteProducts/$1');
+
+//contacts
+$routes->add('/admin/registerContacts', 'Admin\Product::registerContacts');
+$routes->add('/admin/listContacts', 'Admin\Product::listContacts');
+$routes->add('/admin/consultContacts/(:num)', 'Admin\Product::consultContacts/$1');
+$routes->add('/admin/updateContacts/(:num)', 'Admin\Product::updateContacts/$1');
+$routes->add('/admin/deleteContacts/(:num)', 'Admin\Product::deleteContacts/$1');
 
 /*
  * --------------------------------------------------------------------

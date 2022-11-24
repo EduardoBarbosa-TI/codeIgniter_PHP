@@ -4,7 +4,7 @@
     <?php
         foreach ($arrayProducts as $product) {
     ?>
-    <form class="row g-3" method="POST" action="<?=base_url('admin/updateProducts/' . $product['idProduct'])?>">
+    <form class="row g-3" method="POST" action="<?=base_url('admin/updateProducts/'.$product['idProduct'])?>">
         <div class="col-md-12">
             <label for="validationDefault01" class="form-label" value>Nome do Produto</label>
             <input type="text" class="form-control" name="name" id="validationDefault01" value="<?= $product['name'] ?>" required>
@@ -25,7 +25,7 @@
         <div class="col-12">
             <button class="btn btn-primary" name="update" type="submit">Submit form</button>
         </div>
-        <?php
+        <?php    
         }
         ?>
     </form>
