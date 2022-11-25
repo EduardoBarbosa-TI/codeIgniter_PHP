@@ -18,11 +18,7 @@
             <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" name="description" required></textarea>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary" name="update" type="submit">Submit form</button>
+            <button class="btn btn-primary" name="create" type="submit">Submit form</button>
         </div>
     </form>
 </div>
-</div>
-</div>
-</div>
-</section>

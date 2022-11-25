@@ -9,8 +9,7 @@ class Product extends BaseController{
     public function listProducts(){
       $ProductModel = new ProductModel();
       $data = [
-
-          'arrayProducts' => $ProductModel->findAll()
+        'arrayProducts' => $ProductModel->findAll()
       ];
 
       echo view('templates/header');

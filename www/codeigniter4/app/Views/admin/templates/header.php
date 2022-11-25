@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="container-fluid bg-primary p-1 text-center">
+    <header class="container-fluid bg-primary text-center">
         <div class="row">
             <div class="col-12 col-sm-6 d-flex justify-content-start">
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -26,5 +26,7 @@
             </div>
         </div>
     </header>
-    <section class="container p-5 ">
-        <div class="row justify-content-center">
+    <section class="container-sm ">
+    <div class="row">
+        <div class="d-flex justify-content-center">
+          

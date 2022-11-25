@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <?php if (isset($_SESSION['messageInvalidPassword'])) { ?>
+    <?php if ($session->has('messageInvalidPassword')) { ?>
         <div class="container-fluid messageInvalid  ">
             <div class="row">
                 <div class="col-12 col-sm-12 alert alert-danger fade show text-center fixed-bottom p-4" tabindex="-10" role="alert">
@@ -62,10 +62,10 @@
             </div>
         </div>
     <?php
-        unset($_SESSION['messageInvalidPassword']);
+        unset($session['messageInvalidPassword']);
     } ?>
 
-    <?php if (isset($_SESSION['messageInvalidNameAndPassword'])) { ?>
+    <?php if ($session->has(['messageInvalidNameAndPassword'])) { ?>
         <div class="container-fluid" id="messageinvalid">
             <div class="row">
                 <div class="col-12 col-sm-12 alert alert-danger fade show text-center fixed-bottom p-4" tabindex="-10" role="alert">
@@ -76,7 +76,7 @@
         </div>
 
     <?php
-        unset($_SESSION['messageInvalidNameAndPassword']);
+        unset($session['messageInvalidNameAndPassword']);
     }
     ?>
 </body>

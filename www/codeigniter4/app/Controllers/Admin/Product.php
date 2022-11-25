@@ -47,8 +47,9 @@ class Product extends BaseController{
         echo view('admin/products/updateProducts',$data);
         echo view('admin/templates/footer');
 
-        $this->updateProducts($idProduct);
-
+        if($this->request->getVar('update') == true){
+          $this->updateProducts($idProduct);
+        }
       }else{
         echo ("Id de usuário não encontrado");
       }

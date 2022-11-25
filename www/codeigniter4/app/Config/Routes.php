@@ -49,11 +49,11 @@ $routes->get('/admin/logout', 'Admin\Admin::logout');
 $routes->add('/admin/validateLogin', 'Admin\User::validateLogin');
 
 //clients
-$routes->add('/admin/registerClients', 'Admin\Product::registerClients');
-$routes->add('/admin/listClients', 'Admin\Product::listClients');
-$routes->add('/admin/consultClients/(:num)', 'Admin\Product::consultClients/$1');
-$routes->add('/admin/updateClients/(:num)', 'Admin\Product::updateClients/$1');
-$routes->add('/admin/deleteClients/(:num)', 'Admin\Product::deleteClients/$1');
+$routes->add('/admin/registerClients', 'Admin\Client::registerClients');
+$routes->add('/admin/listClients', 'Admin\Client::listClients');
+$routes->add('/admin/consultClients/(:num)', 'Admin\Client::consultClients/$1');
+$routes->add('/admin/updateClient/(:num)', 'Admin\Client::updateClient/$1');
+$routes->add('/admin/deleteClient/(:num)', 'Admin\Client::deleteClient/$1');
 
 
 //products
@@ -64,11 +64,11 @@ $routes->add('/admin/updateProducts/(:num)', 'Admin\Product::updateProducts/$1')
 $routes->add('/admin/deleteProducts/(:num)', 'Admin\Product::deleteProducts/$1');
 
 //contacts
-$routes->add('/admin/registerContacts', 'Admin\Product::registerContacts');
-$routes->add('/admin/listContacts', 'Admin\Product::listContacts');
-$routes->add('/admin/consultContacts/(:num)', 'Admin\Product::consultContacts/$1');
-$routes->add('/admin/updateContacts/(:num)', 'Admin\Product::updateContacts/$1');
-$routes->add('/admin/deleteContacts/(:num)', 'Admin\Product::deleteContacts/$1');
+$routes->add('/admin/registerContacts', 'Admin\Contact::registerContacts');
+$routes->add('/admin/listContacts', 'Admin\Contact::listContacts');
+$routes->add('/admin/consultContacts/(:num)', 'Admin\Contact::consultContacts/$1');
+$routes->add('/admin/updateContact/(:num)', 'Admin\Contact::updateContact/$1');
+$routes->add('/admin/deleteContact/(:num)', 'Admin\Contact::deleteContact/$1');
 
 /*
  * --------------------------------------------------------------------

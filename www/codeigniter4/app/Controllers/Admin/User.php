@@ -20,10 +20,14 @@ class User extends BaseController{
                 $session -> set('user', $user);
                 return redirect()->to(base_url('/admin'));
             }else{
-                echo('Senha inválida!!');
+                $session = \Config\Services::session();
+                $message = true;
+                $session -> set('messageInvalidPassword',$message);
             }       
         }else{
-            echo('Usuário ou senha inválida!!');
+            $session = \Config\Services::session();
+            $message = true;
+            $session -> set('messageInvalidNameAndPassword',$message);
         }
     }
 

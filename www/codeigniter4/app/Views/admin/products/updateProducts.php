@@ -1,6 +1,5 @@
-<div class="col-12 col-sm-12">
+<div class="w-50 mt-5">
     <h2>Editar Produto</h2>
-    
     <?php
         foreach ($arrayProducts as $product) {
     ?>
@@ -30,7 +29,3 @@
         ?>
     </form>
 </div>
-</div>
-</div>
-</div>
-</section>
