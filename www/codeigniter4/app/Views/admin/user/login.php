@@ -52,7 +52,8 @@
             </div>
         </div>
     </section>
-    <?php if ($session->has('messageInvalidPassword')) { ?>
+    <?php  $session = \Config\Services::session();
+        if ($session->has('messageInvalidPassword')){ ?>
         <div class="container-fluid messageInvalid  ">
             <div class="row">
                 <div class="col-12 col-sm-12 alert alert-danger fade show text-center fixed-bottom p-4" tabindex="-10" role="alert">
@@ -62,10 +63,12 @@
             </div>
         </div>
     <?php
-        unset($session['messageInvalidPassword']);
+        
     } ?>
-
-    <?php if ($session->has(['messageInvalidNameAndPassword'])) { ?>
+    
+    <?php 
+     $session = \Config\Services::session();
+    if ($session->has('messageInvalidNameAndPassword')) { ?>
         <div class="container-fluid" id="messageinvalid">
             <div class="row">
                 <div class="col-12 col-sm-12 alert alert-danger fade show text-center fixed-bottom p-4" tabindex="-10" role="alert">
@@ -76,7 +79,7 @@
         </div>
 
     <?php
-        unset($session['messageInvalidNameAndPassword']);
+     
     }
     ?>
 </body>

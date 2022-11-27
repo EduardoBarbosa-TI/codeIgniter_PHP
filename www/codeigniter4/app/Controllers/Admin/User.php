@@ -21,13 +21,13 @@ class User extends BaseController{
                 return redirect()->to(base_url('/admin'));
             }else{
                 $session = \Config\Services::session();
-                $message = true;
-                $session -> set('messageInvalidPassword',$message);
+                $session->set('messageInvalidPassword', true);
+                return redirect()->to(base_url('/admin'));
             }       
         }else{
-            $session = \Config\Services::session();
-            $message = true;
-            $session -> set('messageInvalidNameAndPassword',$message);
+            $session= \Config\Services::session();
+            $session->set('messageInvalidNameAndPassword', true);
+            return redirect()->to(base_url('/admin'));
         }
     }
 
