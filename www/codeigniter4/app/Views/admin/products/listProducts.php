@@ -1,4 +1,4 @@
-<div class="w-50 mt-5">
+<div class="w-100 mt-5">
     <h2>Lista de Produtos</h2>
     <table class="table table-striped">
         <tr>

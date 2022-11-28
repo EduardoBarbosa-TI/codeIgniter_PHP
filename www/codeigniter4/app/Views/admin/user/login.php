@@ -52,7 +52,8 @@
             </div>
         </div>
     </section>
-    <?php  $session = \Config\Services::session();
+    <?php  
+        $session = \Config\Services::session();
         if ($session->has('messageInvalidPassword')){ ?>
         <div class="container-fluid messageInvalid  ">
             <div class="row">
@@ -63,7 +64,7 @@
             </div>
         </div>
     <?php
-        
+        unset($session->messageInvalidPassword);
     } ?>
     
     <?php 
@@ -79,6 +80,7 @@
         </div>
 
     <?php
+    unset($session->messageInvalidNameAndPassword);
      
     }
     ?>

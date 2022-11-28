@@ -18,7 +18,24 @@
             <input type="text" class="form-control" name="address" id="validationDefault02" required>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary" name="update" type="submit">Submit form</button>
+            <button class="btn btn-primary" name="submit" type="submit">Submit form</button>
         </div>
     </form>
 </div>
+<?php 
+    $session = \Config\Services::session();
+    var_dump($session->message);    
+     if ($session->has('message')) { 
+?>
+       <div class="container-fluid fixed-bottom ">
+           <div class="row">
+               <div class="col-12 col-sm-12 alert alert-success fade show text-center p-4" tabindex="-10" role="alert">
+                   <strong>Cliente Cadastrado</strong>
+                   <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close"></button>
+               </div>
+           </div>
+       </div>
+
+<?php 
+   unset($session->message);
+}?>

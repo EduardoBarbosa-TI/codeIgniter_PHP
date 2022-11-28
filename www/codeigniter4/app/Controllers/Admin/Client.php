@@ -27,12 +27,20 @@ class Client extends BaseController{
     }
 
     public function registerClients(){
-        echo view('admin/templates/header');
-        echo view('admin/templates/offcanva');
-        echo view('admin/clients/registerClients');
-        echo view('admin/templates/footer');
+      echo view('admin/templates/header');
+      echo view('admin/templates/offcanva');
+      echo view('admin/clients/registerClients');
+      echo view('admin/templates/footer');
 
-      $this->clientModel->save($this->request->getPost());
+
+      if($this->request->getVar('submit') == ""){
+        $this->clientModel->save($this->request->getPost());
+
+        $session= \Config\Services::session();
+        $session->set('message', true);
+        
+      }
+      
     }
     
     public function consultClients($idClient){
