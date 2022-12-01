@@ -34,9 +34,6 @@
                             <a class="nav-link" href="<?=base_url('about')?>">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=base_url('listContacts')?>">Contato</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="<?=base_url('listProducts')?>">Produtos</a>
                         </li>
                     </ul>
@@ -44,7 +41,7 @@
             </div>
         </nav>
     </header>
-    <section class="container p-5 ">
+    <section class="container-fluid py-3 py-md-5">
         <div class="row justify-content-center">
             
             

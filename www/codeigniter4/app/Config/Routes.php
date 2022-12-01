@@ -39,8 +39,8 @@ $routes->get('/', 'Site::index');
 $routes->get('/home', 'Site::view/home');
 $routes->get('/about', 'Site::view/about');
 
-$routes->get('/listContacts', 'Contact::listContacts');
 $routes->get('/listProducts', 'Product::listProducts');
+$routes->add('/registerContacts', 'ContactView::registerContacts');
 
 $routes->get('/admin', 'Admin\Admin::index');
 $routes->get('/admin/login', 'Admin\Admin::login');

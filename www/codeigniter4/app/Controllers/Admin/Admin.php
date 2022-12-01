@@ -6,10 +6,17 @@ use App\Controllers\BaseController;
 
 class Admin extends BaseController{
 
-    public function index(){
-        $session = \Config\Services::session();
+   public $session;
 
-        if($session -> has('user')){
+    public function __construct()
+    {
+         $this->session = \Config\Services::session();
+    }
+
+    public function index(){
+       
+
+        if($this->session -> has('user')){
             echo view('admin/templates/header');
             echo view('admin/templates/offcanva');
             echo view('admin/templates/home');
@@ -25,8 +32,7 @@ class Admin extends BaseController{
     }
 
     public function logout(){
-        $session =\Config\Services::session();
-        $session->destroy();
+        $this->session->destroy();
         return redirect()->to(base_url('admin/login'));
     }
 

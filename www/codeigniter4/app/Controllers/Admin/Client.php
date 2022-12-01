@@ -11,6 +11,11 @@ class Client extends BaseController{
   private $clientModel;
 
   public function __construct(){
+    
+    if($this->session->has('user') == null){
+      return redirect()->to(base_url('admin/login'));
+    }
+
     $this->clientModel = new ClientModel();
   }
 

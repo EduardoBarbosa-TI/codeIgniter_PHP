@@ -1,0 +1,82 @@
+CRITICAL - 2022-11-30 08:26:48 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 14.
+ 1 APPPATH/Controllers/Admin/Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:27:21 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Admin/Client.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-30 08:28:00 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:31:10 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 14.
+ 1 APPPATH/Controllers/Admin/Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:33:53 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 14.
+ 1 APPPATH/Controllers/Admin/Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:35:13 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:35:42 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:35:57 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:36:11 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:40:30 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:40:54 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:41:00 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:41:22 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Admin\Client->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
