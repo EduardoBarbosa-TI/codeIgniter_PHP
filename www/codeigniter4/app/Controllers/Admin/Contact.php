@@ -9,9 +9,17 @@ use App\Controllers\BaseController;
 class Contact extends BaseController{
 
   private $contactModel;
+  private $session;
 
   public function __construct(){
+    $this->session = \Config\Services::session();
+
+    if($this->session->has('user') == null){
+      return redirect()->to(base_url('admin/login'));
+    }
+
     $this->contactModel = new ContactModel();
+
   }
 
   public function listContacts(){
@@ -30,9 +38,9 @@ class Contact extends BaseController{
         echo view('admin/templates/header');
         echo view('admin/templates/offcanva');
         echo view('admin/contacts/registerContacts');
-        echo view('admin/templates/footer');
-
-      $this->contactModel->save($this->request->getPost());
+        echo view('admin/templates/footer'); 
+          
+        $this->contactModel->save($this->request->getPost());     
   }
     
   public function consultContacts($idContact){

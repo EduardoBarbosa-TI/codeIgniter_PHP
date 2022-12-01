@@ -1,4 +1,4 @@
-<div class="w-100 mt-5">
+<div class="w-100 mt-5 table-responsive">
     <h2>Lista de Clientes</h2>
     <table class="table table-striped">
         <tr>

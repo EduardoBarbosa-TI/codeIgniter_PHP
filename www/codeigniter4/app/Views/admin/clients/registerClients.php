@@ -1,4 +1,4 @@
-<div class="w-50 mt-5">
+<div class="col-12 col-sm-12 mt-5">
     <h2>Cadastro de Clientes</h2>
     <form class="row g-3" method="POST" action="<?=base_url('admin/registerClients')?>">
         <div class="col-md-12">
@@ -23,8 +23,7 @@
     </form>
 </div>
 <?php 
-    $session = \Config\Services::session();
-    var_dump($session->message);    
+    $session = \Config\Services::session(); 
      if ($session->has('message')) { 
 ?>
        <div class="container-fluid fixed-bottom ">
@@ -36,6 +35,9 @@
            </div>
        </div>
 
-<?php 
-   unset($session->message);
-}?>
+<?php   
+}
+$session->remove('message');
+?>
+
+

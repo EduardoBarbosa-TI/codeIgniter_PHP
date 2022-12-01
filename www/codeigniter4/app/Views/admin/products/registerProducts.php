@@ -1,4 +1,4 @@
-<div class="col-12 col-sm-12">
+<div class="col-12 col-sm-12 mt-5">
     <h2>Cadastro de Produtos</h2>
     <form class="row g-3" method="POST" action="<?=base_url('admin/registerProducts')?>">
         <div class="col-md-12">

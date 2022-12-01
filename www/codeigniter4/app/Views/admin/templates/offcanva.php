@@ -11,7 +11,7 @@
                 </button>
                 <div class="collapse" id="collapseExample01">
                     <ul class=" mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('admin/registerClients')?>">Cadastrar CLientes</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/registerClients')?>">Cadastrar Clientes</a></li>
                         <li><a class="dropdown-item" href="<?=base_url('admin/listClients')?>">Listar Clientes</a></li>
                     </ul>
                 </div>

@@ -1,5 +1,5 @@
-<div class="w-50 mt-5">
-    <h2>Cadastro de Contatos</h2>
+<div class=" col-12 col-sm-12 my-5 ms-2">
+    <h2 class="mb-3">Cadastro de Contatos</h2>
     <form class="row g-3" method="POST" action="<?=base_url('admin/registerContacts')?>">
         <div class="col-md-12">
             <label for="validationDefault01" class="form-label">Nome do Cliente</label>
@@ -26,7 +26,8 @@
             <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" name="description" required></textarea>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary" name="update" type="submit">Submit form</button>
+            <button class="btn btn-primary" name="submit" type="submit">Submit form</button>
         </div>
     </form>
 </div>
+>

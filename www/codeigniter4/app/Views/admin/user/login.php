@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-12 col-sm-6 offset-sm-3">
                 <div class="text-center">
-                    <h3>Login do Sistema</h3>
+                    <h3 class="my-3">Login do Sistema</h3>
                 </div>
                 <div>
                     <form action="<?=base_url('admin/validateLogin')?>" class="row g-3 needs-validation" method=POST>

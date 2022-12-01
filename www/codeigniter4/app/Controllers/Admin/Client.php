@@ -4,15 +4,19 @@ namespace App\Controllers\Admin;
 
 use App\Models\ClientModel;
 
+use Config\Services;
+
 use App\Controllers\BaseController;
 
 class Client extends BaseController{
 
   private $clientModel;
+  private $session;
 
-  public function __construct(){
-    
-    if($this->session->has('user') == null){
+  public function __construct(){ 
+    $this->session = \Config\Services::session();
+
+    if($this->session->get('user') == null){
       return redirect()->to(base_url('admin/login'));
     }
 
@@ -39,10 +43,9 @@ class Client extends BaseController{
 
 
       if($this->request->getVar('submit') == ""){
+        
         $this->clientModel->save($this->request->getPost());
-
-        $session= \Config\Services::session();
-        $session->set('message', true);
+        $this->session->set('message', true);
         
       }
       
@@ -64,7 +67,7 @@ class Client extends BaseController{
         }
 
       }else{
-        echo ("Id de usuário não encontrado");
+        return redirect()->to(base_url('admin/listClients'));
       }
     }
 
@@ -78,6 +81,7 @@ class Client extends BaseController{
       ];
       
       $this->clientModel->update($idClient,$data);
+
 
       return redirect()->to(base_url('admin/listClients'));  
     }

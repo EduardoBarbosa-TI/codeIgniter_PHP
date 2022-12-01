@@ -1,5 +1,5 @@
-<div class="w-50 mt-5">
-    <h2>Editar Produto</h2>
+<div class="col-12 col-sm-12 mt-5">
+    <h2 class="mb-3">Editar Produto</h2>
     <?php
         foreach ($arrayProducts as $product) {
     ?>
