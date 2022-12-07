@@ -1,6 +1,6 @@
-<div class="col-12 col-sm-12 mt-5">
-    <h2>Cadastro de Clientes</h2>
-    <form class="row g-3" method="POST" action="<?=base_url('admin/registerClients')?>">
+<div class="col-12 col-sm-12 mt-5 sm-w-50">
+    <h2 class="mb-3">Cadastro de Clientes</h2>
+    <form class="row g-3" method="POST" action="<?=base_url('admin/client/register')?>">
         <div class="col-md-12">
             <label for="validationDefault01" class="form-label">Nome do Cliente</label>
             <input type="text" class="form-control" name="name" id="validationDefault01" required>
@@ -17,14 +17,14 @@
             <label for="validationDefault02" class="form-label">address</label>
             <input type="text" class="form-control" name="address" id="validationDefault02" required>
         </div>
-        <div class="col-12">
+        <div class="col-12 mt-3">
             <button class="btn btn-primary" name="submit" type="submit">Submit form</button>
         </div>
     </form>
 </div>
 <?php 
     $session = \Config\Services::session(); 
-     if ($session->has('message')) { 
+    if ($session->has('message')) { 
 ?>
        <div class="container-fluid fixed-bottom ">
            <div class="row">
@@ -36,8 +36,8 @@
        </div>
 
 <?php   
-}
 $session->remove('message');
+}
 ?>
 
 

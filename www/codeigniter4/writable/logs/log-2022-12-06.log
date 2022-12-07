@@ -1,0 +1,122 @@
+CRITICAL - 2022-12-06 21:33:25 --> Undefined variable $clients
+in APPPATH/Views/admin/clients/updateClient.php on line 4.
+ 1 APPPATH/Views/admin/clients/updateClient.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'APPPATH/Views/admin/clients/updateClient.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/updateClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/updateClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(62): view('admin/clients/updateClient', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->consultClients('49')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 21:35:42 --> Undefined variable $clients
+in APPPATH/Views/admin/clients/updateClient.php on line 4.
+ 1 APPPATH/Views/admin/clients/updateClient.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'APPPATH/Views/admin/clients/updateClient.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/updateClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/updateClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(62): view('admin/clients/updateClient', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->consultClients('49')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 21:35:55 --> Undefined variable $clients
+in APPPATH/Views/admin/clients/updateClient.php on line 4.
+ 1 APPPATH/Views/admin/clients/updateClient.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'APPPATH/Views/admin/clients/updateClient.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/updateClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/updateClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(62): view('admin/clients/updateClient', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->consultClients('49')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 21:54:11 --> Invalid file: admin/products/updateContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/updateContact.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateContact', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(54): view('admin/products/updateContact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 21:55:36 --> Invalid file: admin/products/updateContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/updateContact.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateContact', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(54): view('admin/products/updateContact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 21:59:53 --> Invalid file: admin/products/updateContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/updateContact.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateContact', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(54): view('admin/products/updateContact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('6')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:02:24 --> Invalid file: admin/products/updateContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/updateContact.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/products/updateContact', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(54): view('admin/products/updateContact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:04:34 --> Undefined array key "phone"
+in APPPATH/Views/admin/contacts/updateContact.php on line 14.
+ 1 APPPATH/Views/admin/contacts/updateContact.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'APPPATH/Views/admin/contacts/updateContact.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/contacts/updateContact.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/contacts/updateContact', [], true)
+ 5 APPPATH/Controllers/Admin/Contact.php(54): view('admin/contacts/updateContact', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:04:43 --> Invalid file: admin/contact/updateContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/contact/updateContact.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/contact/updateContact', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(54): view('admin/contact/updateContact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:05:11 --> Undefined array key "phone"
+in APPPATH/Views/admin/contacts/updateContact.php on line 14.
+ 1 APPPATH/Views/admin/contacts/updateContact.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'APPPATH/Views/admin/contacts/updateContact.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/contacts/updateContact.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/contacts/updateContact', [], true)
+ 5 APPPATH/Controllers/Admin/Contact.php(54): view('admin/contacts/updateContact', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:05:17 --> Undefined array key "phone"
+in APPPATH/Views/admin/contacts/updateContact.php on line 14.
+ 1 APPPATH/Views/admin/contacts/updateContact.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'APPPATH/Views/admin/contacts/updateContact.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/contacts/updateContact.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/contacts/updateContact', [], true)
+ 5 APPPATH/Controllers/Admin/Contact.php(54): view('admin/contacts/updateContact', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 22:06:41 --> Undefined array key "phone"
+in APPPATH/Views/admin/contacts/updateContact.php on line 14.
+ 1 APPPATH/Views/admin/contacts/updateContact.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'APPPATH/Views/admin/contacts/updateContact.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/contacts/updateContact.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/contacts/updateContact', [], true)
+ 5 APPPATH/Controllers/Admin/Contact.php(54): view('admin/contacts/updateContact', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->consultContacts('4')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

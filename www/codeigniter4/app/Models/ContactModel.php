@@ -14,4 +14,14 @@ class ContactModel extends Model{
         'status',
         'description'
     ];
+
+    function getContactsFor($search) {
+        return $this -> asArray() -> like('idContact', $search)
+        -> orLike('name', $search)
+        -> orLike('email', $search)
+        -> orLike('message', $search)
+        -> orLike('status', $search)
+        -> orLike('description', $search)
+        -> findAll();
+    } 
 }

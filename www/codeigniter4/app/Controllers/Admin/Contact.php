@@ -25,7 +25,7 @@ class Contact extends BaseController{
   public function listContacts(){
       
       $data = [
-          'arrayContacts' => $this->contactModel->findAll()
+          'contacts' => $this->contactModel->findAll()
       ];
 
       echo view('admin/templates/header');
@@ -46,18 +46,18 @@ class Contact extends BaseController{
   public function consultContacts($idContact){
       if($this->contactModel->find([$idContact])){
         $data = [
-          'arrayContact' => $this->contactModel->find([$idContact])
+          'contacts' => $this->contactModel->find([$idContact])
         ];
 
         echo view('admin/templates/header');
         echo view('admin/templates/offcanva');
-        echo view('admin/products/updateContact',$data);
+        echo view('admin/contacts/updateContact',$data);
         echo view('admin/templates/footer');
 
         $this->updateContact($idContact);
 
       }else{
-        echo ("Id de usuário não encontrado");
+        echo ("Id do contato não encontrado");
       }
   }
 
@@ -66,19 +66,17 @@ class Contact extends BaseController{
       $data = [
         'name' => $this->request->getPost('name'),
         'email'=> $this->request->getPost('email'),
-        'message'=> $this->request->getPost('message'),
-        'status'=> $this->request->getPost('status'),
         'description'=> $this->request->getPost('description')
       ];
       
       $this->contactModel->update($idContact,$data);
 
-      return redirect()->to(base_url('admin/listContacts'));  
+      return redirect()->to(base_url('admin/contact/list'));  
   }
 
   public function deleteContact($idContact){
     $this->contactModel->delete($idContact);
-    return redirect()->to(base_url('admin/listProducts'));  
+    return redirect()->to(base_url('admin/contact/list'));  
   }
     
 }

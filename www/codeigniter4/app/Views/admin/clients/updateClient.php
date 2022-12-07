@@ -1,10 +1,9 @@
 <div class="col-12 col-sm-12 mt-5">
     <h2 class="mb-3">Editar Cliente</h2>
    <?php
-        foreach($arrayClient as $client){
+        foreach($clients as $client){
    ?>
-    
-    <form class="row g-3" method="POST" action="<?=base_url('admin/updateClient/'.$client['idClient'])?>">
+    <form class="row g-3" method="POST" action="<?=base_url('admin/client/update/'.$client['idClient'])?>">
         <div class="col-md-12">
             <label for="validationDefault01"  class="form-label">Nome do Cliente</label>
             <input type="text" class="form-control"  name="name" id="validationDefault01" value="<?= $client['name'] ?>" required>

@@ -9,43 +9,27 @@
             <th>Preço</th>
         </tr>
         <?php
-        foreach ($arrayProducts as $products) {
+        foreach ($products as $product) {
         ?>
             <tr>
                 <td>
-                    <?= $products['idProduct'] ?>
+                    <?= $product['idProduct'] ?>
                 </td>
                 <td>
-                    <?= $products['idCategory'] ?>
+                    <?= $product['idCategory'] ?>
                 </td>
                 <td>
-                    <?= $products['description'] ?>
+                    <?= $product['description'] ?>
                 </td>
                 <td>
-                    <?= $products['name'] ?>
+                    <?= $product['name'] ?>
                 </td>
                 <td>
-                    <?= $products['price'] ?>
+                    <?= $product['price'] ?>
                 </td>
                 <td>
-                    <a class="btn btn-sm btn-primary me-2" href='<?= base_url('admin/consultProducts/' . $products['idProduct']) ?>'><i class="bi bi-pencil"></i></a>
-                    <a class="btn btn-sm btn-danger me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-trash"></i></a>
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                                    <a class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
-                                </div>
-                                <div class="modal-body">
-                                    Você realmente deseja excluir o produto ?
-                                </div>
-                                <div class="modal-footer">
-                                    <a class="btn btn-secondary" data-bs-dismiss="modal">Fechar</a>
-                                    <a href='<?= base_url('admin/deleteProducts/'.$products['idProduct'])?>' class="btn btn-primary">Excluir produto</a>
-                                </div>
-                            </div>
-                        </div>
+                    <a class="btn btn-sm btn-primary me-2" href='<?= base_url('admin/product/consult/'.$product['idProduct']) ?>'><i class="bi bi-pencil"></i></a>
+                    <a class="btn btn-sm btn-danger me-2" href='<?= base_url('admin/product/delete/'.$product['idProduct'])?>'><i class="bi bi-trash"></i></a>
                     </div>
                 </td>
             </tr>

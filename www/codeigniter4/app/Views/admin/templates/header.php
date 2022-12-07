@@ -16,14 +16,15 @@
 <body>
     <header class="container-fluid bg-primary text-center ">
         <div class="row">
-            <div class="d-flex  align-items-center">
-                <div class="col-6 col-sm-5 pe-5 ">
+            <div class="d-flex align-items-center ">
+
+                <div class="col-6 col-sm-5 text-start ">
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <i class="bi bi-filter-left " style="font-size: 2.4rem;"></i>
                     </button>
                 </div>
 
-                <div class="col-6 col-sm-6   ">
+                <div class="col-6 col-sm-6 text-end  ">
                     <a class="btn btn-danger" href="<?=base_url('admin/logout')?>">Sair</a>
                 </div>
             </div>

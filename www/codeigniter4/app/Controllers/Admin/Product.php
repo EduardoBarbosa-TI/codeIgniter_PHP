@@ -18,7 +18,7 @@ class Product extends BaseController{
       
       $data = [
         
-          'arrayProducts' => $this->productModel->findAll()
+          'products' => $this->productModel->findAll()
       ];
 
       echo view('admin/templates/header');
@@ -39,7 +39,7 @@ class Product extends BaseController{
     public function consultProducts($idProduct){
       if($this->productModel->find([$idProduct])){
         $data = [
-          'arrayProducts' => $this->productModel->find([$idProduct])
+          'products' => $this->productModel->find([$idProduct])
         ];
 
         echo view('admin/templates/header');
@@ -51,7 +51,7 @@ class Product extends BaseController{
           $this->updateProducts($idProduct);
         }
       }else{
-        echo ("Id de usuário não encontrado");
+        echo ("Id de produto não encontrado");
       }
     }
 
@@ -61,16 +61,17 @@ class Product extends BaseController{
           'name' => $this->request->getPost('name'),
           'price' => $this->request->getPost('price'),
           'description' => $this->request->getPost('description'),
-          'idCategory' => $this->request->getPost('category')
+          'idCategory' => $this->request->getPost('idCategory')
       ];
+    
       $this->productModel->update($idProduct,$data);
 
-      return redirect()->to(base_url('admin/listProducts'));  
+      return redirect()->to(base_url('admin/product/list'));  
     }
 
     public function deleteProducts($idProduct){
       $this->productModel->delete($idProduct);
-      // return redirect()->to(base_url('admin/listProducts'));  
+      return redirect()->to(base_url('admin/product/list'));  
     }
     
 }

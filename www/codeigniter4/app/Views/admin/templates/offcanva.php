@@ -11,8 +11,8 @@
                 </button>
                 <div class="collapse" id="collapseExample01">
                     <ul class=" mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('admin/registerClients')?>">Cadastrar Clientes</a></li>
-                        <li><a class="dropdown-item" href="<?=base_url('admin/listClients')?>">Listar Clientes</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/client/register')?>">Cadastrar Clientes</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/client/list')?>">Listar Clientes</a></li>
                     </ul>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                 </button>
                 <div class="collapse" id="collapseExample02">
                     <ul class="mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('admin/registerProducts')?>">Cadastrar Produtos</a></li>
-                        <li><a class="dropdown-item" href="<?=base_url('admin/listProducts')?>">Listar Produtos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/product/register')?>">Cadastrar Produtos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/product/list')?>">Listar Produtos</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,8 +33,8 @@
                 </button>
                 <div class="collapse" id="collapseExample04">
                     <ul class="mt-3">
-                        <li><a class="dropdown-item" href="<?=base_url('admin/registerContacts')?>">Cadastrar Contatos</a></li>
-                        <li><a class="dropdown-item" href="<?=base_url('admin/listContacts')?>">Listar Contatos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/contact/register')?>">Cadastrar Contatos</a></li>
+                        <li><a class="dropdown-item" href="<?=base_url('admin/contact/list')?>">Listar Contatos</a></li>
                     </ul>
                 </div>
             </div>

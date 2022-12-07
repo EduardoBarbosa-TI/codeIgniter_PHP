@@ -32,7 +32,7 @@ class Admin extends BaseController{
     }
 
     public function logout(){
-        $this->session->destroy();
+        $this->session->remove('user');
         return redirect()->to(base_url('admin/login'));
     }
 

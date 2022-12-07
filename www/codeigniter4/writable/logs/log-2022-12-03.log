@@ -1,0 +1,122 @@
+CRITICAL - 2022-12-03 21:08:17 --> Undefined property: CodeIgniter\View\View::$message
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$message', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:08:36 --> Undefined property: CodeIgniter\View\View::$message
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$message', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:08:54 --> syntax error, unexpected token "="
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:10:07 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:13:07 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:13:15 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 21:13:42 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 22:10:38 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/clients/registerClients.php on line 27.
+ 1 APPPATH/Views/admin/clients/registerClients.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/clients/registerClients.php', 27)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/registerClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/registerClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(41): view('admin/clients/registerClients')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 22:58:46 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 22:59:22 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 22:59:29 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 23:00:26 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 23:00:37 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 23:00:39 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Client.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->registerClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

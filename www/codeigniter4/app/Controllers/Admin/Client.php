@@ -4,7 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Models\ClientModel;
 
-use Config\Services;
+
 
 use App\Controllers\BaseController;
 
@@ -16,24 +16,39 @@ class Client extends BaseController{
   public function __construct(){ 
     $this->session = \Config\Services::session();
 
-    if($this->session->get('user') == null){
+   
+    if($this->session->has('user') == null){
       return redirect()->to(base_url('admin/login'));
     }
 
     $this->clientModel = new ClientModel();
   }
 
-    public function listClients(){
-      
+  public function listClientSearch(){
+
+    $search = $this->request->getVar('search');
+    
+    $data = [
+      'clients' => $this->clientModel->getClientsFor($search)
+    ];
+      echo view('admin/templates/header');
+      echo view('admin/templates/offcanva');
+      echo view('admin/clients/listClientsSearch',$data);
+      echo view('admin/templates/footer');
+  }
+
+
+
+  public function listClients(){ 
       $data = [
-          'arrayClients' => $this->clientModel->findAll()
+          'clients' => $this->clientModel->findAll()
       ];
 
       echo view('admin/templates/header');
       echo view('admin/templates/offcanva');
       echo view('admin/clients/listClients',$data);
       echo view('admin/templates/footer');
-    }
+  }
 
     public function registerClients(){
       echo view('admin/templates/header');
@@ -45,6 +60,7 @@ class Client extends BaseController{
       if($this->request->getVar('submit') == ""){
         
         $this->clientModel->save($this->request->getPost());
+        
         $this->session->set('message', true);
         
       }
@@ -54,7 +70,7 @@ class Client extends BaseController{
     public function consultClients($idClient){
       if($this->clientModel->find([$idClient])){
         $data = [
-          'arrayClient' => $this->clientModel->find([$idClient])
+          'clients' => $this->clientModel->find([$idClient])
         ];
 
         echo view('admin/templates/header');
@@ -81,16 +97,14 @@ class Client extends BaseController{
       ];
       
       $this->clientModel->update($idClient,$data);
-
-
-      return redirect()->to(base_url('admin/listClients'));  
+      return redirect()->to(base_url('admin/client/list'));  
     }
 
     public function deleteClient($idClient){
 
       $this->clientModel->delete($idClient);
 
-      return redirect()->to(base_url('admin/listClients'));  
+      return redirect()->to(base_url('admin/client/list'));  
     }
     
 }

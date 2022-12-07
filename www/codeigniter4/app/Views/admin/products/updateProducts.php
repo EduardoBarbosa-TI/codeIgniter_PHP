@@ -1,9 +1,9 @@
 <div class="col-12 col-sm-12 mt-5">
     <h2 class="mb-3">Editar Produto</h2>
     <?php
-        foreach ($arrayProducts as $product) {
+        foreach ($products as $product) {
     ?>
-    <form class="row g-3" method="POST" action="<?=base_url('admin/updateProducts/'.$product['idProduct'])?>">
+    <form class="row g-3" method="POST" action="<?=base_url('admin/product/update/'.$product['idProduct'])?>">
         <div class="col-md-12">
             <label for="validationDefault01" class="form-label" value>Nome do Produto</label>
             <input type="text" class="form-control" name="name" id="validationDefault01" value="<?= $product['name'] ?>" required>
@@ -14,7 +14,7 @@
         </div>
         <div class="col-md-6">
             <label for="validationDefault02" class="form-label">Categoria</label>
-            <input type="text" class="form-control" name="category" id="validationDefault02" value="<?= $product['idCategory'] ?>" required>
+            <input type="text" class="form-control" name="idCategory" id="validationDefault02" value="<?= $product['idCategory'] ?>" required>
         </div>
         <div class="col-md-12">
             <label for="validationTextarea" class="form-label">Textarea</label>

@@ -1,6 +1,6 @@
 <div class="col-12 col-sm-12 mt-5">
     <h2>Cadastro de Produtos</h2>
-    <form class="row g-3" method="POST" action="<?=base_url('admin/registerProducts')?>">
+    <form class="row g-3" method="POST" action="<?=base_url('admin/product/register')?>">
         <div class="col-md-12">
             <label for="validationDefault01" class="form-label">Nome do Produto</label>
             <input type="text" class="form-control" name="name" id="validationDefault01" required>

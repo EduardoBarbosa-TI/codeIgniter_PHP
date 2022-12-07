@@ -21,7 +21,7 @@
             </div>
             <div class="col-12 col-md-4 mt-md-0 mb-md-5 mt-5 offset-md-1">
                 <div class="row">
-                    <form class="col-12 col-md-12 needs-validation" action="<?=base_url('registerContacts')?>" method="post">
+                    <form class="col-12 col-md-12 needs-validation" action="<?=base_url('admin/contact/register')?>" method="post">
                         <div class=" form-group">
                             <label for="validationDefault01" class="form-label">Nome</label>
                             <input type="text" class="form-control" name="name" id="validationDefault01" required>

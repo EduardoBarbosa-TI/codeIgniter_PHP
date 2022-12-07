@@ -1,5 +1,5 @@
 <div class="w-100 mt-5 table-responsive">
-    <h2>Lista de Clientes</h2>
+    <h2>Lista de Contatos</h2>
     <table class="table table-striped">
         <tr>
             <th>ID Contato</th>
@@ -10,31 +10,31 @@
             <th>description</th>
         </tr>
         <?php
-         foreach ($arrayContacts as $contacts) {
+         foreach ($contacts as $contact) {
         ?>
             <tr>
                 <td>
-                    <?= $contacts['idContact'] ?>
+                    <?= $contact['idContact'] ?>
                 </td>
                 <td>
-                    <?= $contacts['name'] ?>
+                    <?= $contact['name'] ?>
                 </td>
                 <td>
-                    <?= $contacts['email'] ?>
+                    <?= $contact['email'] ?>
                 </td>
                 <td>
-                    <?= $contacts['message'] ?>
+                    <?= $contact['message'] ?>
                 </td>
                 <td>
-                    <?= $contacts['status'] ?>
+                    <?= $contact['status'] ?>
                 </td>
                 <td>
-                    <?= $contacts['description'] ?>
+                    <?= $contact['description'] ?>
                 </td>
                 <td>
-                    <a class="btn btn-sm btn-primary me-2" href='<?= base_url('admin/consultContacts/' . $contacts['idContact']) ?>'><i class="bi bi-pencil"></i></a>
+                    <a class="btn btn-sm btn-primary me-2" href='<?= base_url('admin/contact/consult/'.$contact['idContact']) ?>'><i class="bi bi-pencil"></i></a>
 
-                    <a class="btn btn-sm btn-danger me-2" href="<?= base_url('admin/deleteContact/' . $contacts['idContact']) ?>"><i class="bi bi-trash"></i></a>
+                    <a class="btn btn-sm btn-danger me-2" href="<?= base_url('admin/contact/delete/'.$contact['idContact']) ?>"><i class="bi bi-trash"></i></a>
                 </td>
             </tr>
         <?php
