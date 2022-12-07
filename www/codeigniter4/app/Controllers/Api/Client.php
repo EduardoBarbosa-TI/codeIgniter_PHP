@@ -1,11 +1,14 @@
 <?php
 
 namespace App\Controllers\Api;
-use CodeIgniter\RESTful\ResourceController;
+use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\Controller;
 use App\Models\ClientModel;
 
-class Clients extends ResourceController{
+class Clients extends Controller{
     protected $clientModel;
+
+    use ResponseTrait;
 
     public function __construct()
     {
@@ -16,6 +19,6 @@ class Clients extends ResourceController{
     {
         $data = $this->clientModel->findAll();
         
-        return $this->response->setJSON($data);
+        return $this->setResponseFormat('json')->respond($data);
     }
 }
