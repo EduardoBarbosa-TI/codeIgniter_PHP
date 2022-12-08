@@ -9,23 +9,23 @@
             <th>Preço</th>
         </tr>
         <?php
-            foreach($arrayProducts as $products){
+            foreach($products as $product){
         ?>
             <tr>
                 <td>
-                    <?=$products['idProduct']?>
+                    <?=$product['idProduct']?>
                 </td>
                 <td>
-                    <?=$products['idCategory']?>
+                    <?=$product['idCategory']?>
                 </td>
                 <td>
-                    <?=$products['description']?>
+                    <?=$product['description']?>
                 </td>
                 <td>
-                    <?=$products['name']?>
+                    <?=$product['name']?>
                 </td>
                 <td>
-                    <?=$products['price']?>
+                    <?=$product['price']?>
                 </td>
             </tr>
             <?php
