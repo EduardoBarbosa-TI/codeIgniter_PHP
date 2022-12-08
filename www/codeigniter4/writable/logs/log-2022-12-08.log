@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-08 17:10:58 --> Undefined variable $arrayProducts
+in APPPATH/Views/products/listProducts.php on line 12.
+ 1 APPPATH/Views/products/listProducts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayProducts', 'APPPATH/Views/products/listProducts.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/products/listProducts.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('products/listProducts', [], true)
+ 5 APPPATH/Controllers/Product.php(16): view('products/listProducts', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->listProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
