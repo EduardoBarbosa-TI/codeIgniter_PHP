@@ -161,3 +161,9 @@ in APPPATH/Controllers/Api/Client.php on line 9.
 CRITICAL - 2022-12-07 08:46:56 --> Class App\Controllers\Api\Clients cannot extend from trait CodeIgniter\API\ResponseTrait
 in APPPATH/Controllers/Api/Client.php on line 8.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-07 20:36:19 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/Contact.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Contact->registerContacts()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -5,7 +5,7 @@ use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\Controller;
 use App\Models\ClientModel;
 
-class Clients extends Controller{
+class Client extends Controller{
     protected $clientModel;
 
     use ResponseTrait;
